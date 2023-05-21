@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+a {
+    color: rgba(218, 72, 72, 0.792);
+    text-decoration: none;
+    font-size: 32px;
+}
+
+/*tem como agregar seletores para ter o mesmo estilo ex:
+h1, p, a {
+    color:black;
+}
+
+
+
+*/
