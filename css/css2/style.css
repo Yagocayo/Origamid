@@ -1,0 +1,9 @@
+h1 {
+    background-color: #000000; /*cor utilizando hexadecimal*/
+    color: rgba(255, 255, 255, 0.972); /*cor utilizando RGB e A(alfa) da transparencia*/
+}
+a {
+    background-color: seagreen;
+    color: white;
+
+}
