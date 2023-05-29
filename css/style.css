@@ -5,6 +5,12 @@ a {
     text-decoration: none;
     font-size: 32px;
 }
+#introducao {
+    color: gold;
+}
+.paragrafo {
+    background-color: aquamarine;
+}
 
 /*tem como agregar seletores para ter o mesmo estilo ex:
 h1, p, a {
