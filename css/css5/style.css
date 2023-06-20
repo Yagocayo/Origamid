@@ -7,7 +7,7 @@ span {
 }
 
 body{
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
 }
 h1 {
     margin-block-start: 30px;
