@@ -1,7 +1,7 @@
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/* quebra linha*/
     gap: 20px; 
     margin-top: 20px; 
 }
@@ -13,6 +13,18 @@ h2 {
     border: 1px solid #d7d7d7;
     padding: 20px;
     margin: 0px;
+    /*
+    
+    flex-grow: 1; distribui o espaço em branco dentro do elemento
+
+    flex-basis: auto; padrão é 0
+    distribui o espaço apos o conteudo do elemento ficando do tamanho que o conteudo limita
+
+    flex-shrink: 1; determina se o elemento pode ser encolhido
+
+    flex: 1; atalho para as outras 3 de cima
+    
+    */
 
 }
 .grid {
