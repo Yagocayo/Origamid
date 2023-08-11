@@ -17,11 +17,11 @@ a {
 p,
 h1,
 h2,
-h3,{
+h3, {
     margin: 0px;
 }
 
-p{
+p {
     font-size: 20px;
     line-height: 1.3;/*lagura da linha*/
 }
@@ -82,16 +82,22 @@ p{
 }
 .vantagens {
     background: #ffffff;
-    padding: 40px;
+    padding: 20px;
    
 }
 .vantagens-item {
     display: grid;
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto 1fr;
     gap: 10px 20px;
-    padding: 20px;
+    padding: 10px;
 }
 .vantagens-item p {
     grid-column: 2;
+}
+.rodape {
+    background: #ffffff;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
 }
    
