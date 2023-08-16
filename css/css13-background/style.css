@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.bicicleta {
+    height: 100vh;
+    background-color: lightblue;/*corde de funo*/
+    background-image: url("bicicleta.jpg");/*definindo imagem como fundo*/
+    background-repeat: no-repeat;/*para nao repeir a imagem*/
+    background-size: cover;/*determinando o tamanho*/
+    background-position: center top;/*determina a posição da imagem*/
+    background: lightblue url(bicicleta.jpg) no-repeat cover center top;
+    display: flex;
+
+
+}
+h1 {
+    margin: auto;
+    background: white;
+    padding: 1rem 2rem;
+}
+
+.pattern {
+    height: 300px;
+    background-color: lightcoral;
+    background-image: linear-gradient(to right , lightblue 10%, lightcoral 50%);
+
+
+}
+.radial {
+    background-image: radial-gradient(circle, blue, red, green);
+    height: 200px;
+}

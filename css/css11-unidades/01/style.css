@@ -1,0 +1,11 @@
+.px {
+    font-size: 32px;
+     /*nao aconcelhado a se usar pois nao sofre alteração ao mudar tamanho da fonte nas configuraçoes do navegador "html"*/
+}
+.em {
+    font-size: 2em; /*muito parecido com o rem mais sofre alterações dos seletores pai */
+}
+.rem {
+    font-size: 2rem;
+    /*mais aconcelhado a se usar pois so sofre alteração na raiz "html"*/
+}

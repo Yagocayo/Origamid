@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+section {
+    width: 200px;
+    background: tomato;
+
+
+}
+/* porcentagem sempre vai ser em relação ao tamanho do seletor pai*/
+div {
+    height: 40px;
+    background-color: lightblue;
+    /*width: 100vw;*/
+    width: 50%;
+    height: 100vh;
+}
