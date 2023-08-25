@@ -40,7 +40,7 @@ h1::after {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     line-height: 1.3;/*lagura da linha*/
 }
 .header {
@@ -48,6 +48,7 @@ p {
     justify-items: center;
     gap: 60px;
 }
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -58,14 +59,19 @@ p {
 .menu a {
     display:block;
     background: #ffffff;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     border-radius: 4px;
     color: #000000;
     text-transform: uppercase; /* coloca letras maiusculas */
+    border:2px solid transparent ;
+    /*sempre que usar uma bordar hover
+    e nescessario ter a borda no seletor tb*/
 
 }
 .menu a:hover {
-    border:2px solid #ee2211 ;
+    border:2px solid #900 ;
+    /*sempre que usar uma bordar hover
+    e nescessario ter a borda no seletor tb*/
 }
 .conteudo {
     display: grid;
@@ -83,16 +89,20 @@ p {
     justify-items: end;
     
 }
+.introducao h1 {
+    font-size: 2rem;
+    margin: auto;
+}
 
 .botao {
     background: #ee2211;
     color: #ffffff;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     border-radius: 4px;
     text-transform: uppercase;
 }
 .botao:hover{
-    background-color: #ae1313;
+    background-color: #900;
 }
 .subtitulo {
     font-size: 4rem;
@@ -101,6 +111,7 @@ p {
     text-align: right;
     padding: 40px;
     align-self: center;
+    background-image: url("img/onda.svg");
 
 }
 .vantagens {
@@ -114,9 +125,14 @@ p {
     grid-template-columns: auto 1fr;
     gap: 10px 20px;
     padding: 10px;
+    border-left: 4px solid transparent ;
+    /*sempre que usar uma bordar hover
+    e nescessario ter a borda no seletor tb*/ 
 }
 .vantagens-item:hover {
     border-left: 4px solid #ee2211 ;
+    /*sempre que usar uma bordar hover
+    e nescessario ter a borda no seletor tb*/
     
 }
 .vantagens-item:nth-child(odd){ 
