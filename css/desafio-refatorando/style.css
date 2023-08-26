@@ -29,13 +29,7 @@ section {
     position: relative;
 }
 h1::after {
-    content: "";
-    width: 60px;
-    height: 4px;
-    background: #ee2211;
-    position: absolute;
-    top: 30px;
-    right: -30px;
+   
     
 }
 
@@ -69,7 +63,7 @@ p {
 
 }
 .menu a:hover {
-    border:2px solid #900 ;
+    border:2px solid #ee2211 ;
     /*sempre que usar uma bordar hover
     e nescessario ter a borda no seletor tb*/
 }
@@ -92,6 +86,16 @@ p {
 .introducao h1 {
     font-size: 2rem;
     margin: auto;
+}
+
+.introducao::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #ee2211;
+    position: absolute;
+    top: 30px;
+    right: -30px;
 }
 
 .botao {
