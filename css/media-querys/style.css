@@ -35,6 +35,12 @@ img {
       grid-template-columns: 1fr;
       gap: 1rem;
     }
+
+    /*caso seja preciso tirar uma imagem com um determinado tamanho*/
+    
+    img {
+      display: none;
+    }
   }
   
   /* acima de 1000px */
@@ -48,6 +54,21 @@ img {
   @media (min-width: 800px) and (max-width: 900px) {
     h1 {
       background: lightgreen;
+    }
+  }
+
+  /* caracteristicas apenas na tela nao aperece na impreção*/
+  @media screen {
+    body{
+      background: pink;
+    }
+  }
+
+
+/* caracteristicas apenas quando imprimir*/
+  @media print {
+    body{
+    background: pink;
     }
   }
   
