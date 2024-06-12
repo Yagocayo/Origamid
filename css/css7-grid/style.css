@@ -1,6 +1,5 @@
 @charset 'UTF-8';
 
-
 .grid {
     display: grid;
     gap: 20px;
@@ -23,7 +22,7 @@
 }
 
 /*.foto {
-    grid-column: 1/-1 ; /*span espande a imagem na quatidade de colunas
+    grid-column: 1/-1 ; /* espande a imagem na quatidade de colunas que tiver
 }
 .descricao{
     grid-column: 1/3;
