@@ -1,7 +1,7 @@
 
 .flex {
     display: flex;
-    flex-wrap: wrap;/* quebra linha*/
+    flex-wrap: wrap;/* quebra linha */
     gap: 20px; 
     margin-top: 20px; 
 }
@@ -30,6 +30,7 @@ h2 {
 .grid {
     margin-top: 60px;
     display: grid;
+    gap:20px;
     grid-template-columns:repeat(auto-fit, minmax(150px, auto)); 
 }
 
