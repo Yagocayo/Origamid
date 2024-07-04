@@ -29,13 +29,18 @@ h2 {
 main {
     display: grid; 
     height: 800px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto; /* defini as colunas*/
     gap: 20px; 
     place-content: center;
     
 }
 
-/* posicionamentos
+/*
+1fr, 1fr -> representa a divisao do grid em uma unidade fracionada
+
+
+
+posicionamentos
 justify-content:space-evenly ;
     align-content: space-evenly;
 */
