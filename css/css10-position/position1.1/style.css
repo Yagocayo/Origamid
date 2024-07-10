@@ -17,6 +17,6 @@ span {
     position: absolute;
     top: -20px;
 }
-
+ /* para colocar position absolute e necessario que o elemento pai esteja position relative*/
 
 
