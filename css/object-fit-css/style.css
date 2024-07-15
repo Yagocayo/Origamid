@@ -10,10 +10,11 @@ img {
 p {
     font-size: 1.5rem;
 }
-.cover img {
+.cover img { 
     height: 100%;
-    object-fit: cover;
-    object-position: top center;
+    object-fit: cover; /*corta a imagem para nao esticar e distorcer a imagem*/
+    object-position: top center;/* determina onde e pra cortar a imagem*/
+    /*usar apenas quando a imagem continuar tendo sentido mesmo estando cortada*/
   }
   
 .texto {

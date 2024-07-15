@@ -88,7 +88,7 @@ p {
     margin: auto;
 }
 
-.introducao::after {
+.introducao::before {
     content: "";
     width: 60px;
     height: 4px;
@@ -141,7 +141,7 @@ p {
     e nescessario ter a borda no seletor tb*/ 
 }
 .vantagens-item:hover {
-    border-left: 4px solid #ee2211 ;
+    border-color: #ee2211 ;
     /*sempre que usar uma bordar hover
     e nescessario ter a borda no seletor tb*/
     
@@ -181,16 +181,16 @@ p {
         text-align: left;
         justify-items: start;
     }
-    .introducao::after {
+    .introducao::before {
         display: none;
-        
+        /*tirando o traço de efeito da tela quando diminuir*/
     }
     .subtitulo {
         font-size: 3rem;
     }
 
 }
-@media(max-width: 600px) {
+@media(max-width: 400px) {
     .subtitulo {
         font-size: 2rem;
     }
