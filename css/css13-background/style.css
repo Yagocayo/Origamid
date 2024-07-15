@@ -6,7 +6,7 @@ body {
     height: 100vh;
     background-color: lightblue;/*corde de funo*/
     background-image: url("bicicleta.jpg");/*definindo imagem como fundo*/
-    background-repeat: no-repeat;/*para nao repeir a imagem*/
+    background-repeat: no-repeat;/*para nao repetir a imagem*/
     background-size: cover;/*determinando o tamanho*/
     background-position: center top;/*determina a posição da imagem*/
     background: lightblue url(bicicleta.jpg) no-repeat cover center top;

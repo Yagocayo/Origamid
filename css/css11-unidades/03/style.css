@@ -11,6 +11,6 @@ div {
     height: 40px;
     background-color: lightblue;
     /*width: calc(100vw / 3);*/
-    width: calc(100vw - 100px);
+    width: calc(100vw - 100px);/* "calc" função CSS*/
     height: 100vh;
 }

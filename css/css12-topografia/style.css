@@ -4,7 +4,7 @@ p{
     font-weight: bold; /*espessura ou peso*/
     font-style: italic;/*estilo da tipografia "fonte" */
     line-height: 1.3; /* altura da linha*/
-    text-decoration: none;/* ecoração do texto*/
+    text-decoration: none;/* Decoração do texto*/
     text-transform: lowercase;/* tranformação do texto*/
     text-indent: 4rem; /*identa o paragrafo do texto*/
     text-align: left; /*alinhamento do texto*/
