@@ -1,238 +1,231 @@
 /* usando o @import './style.css'  importa o arquivo css sem fazer um novo link no html mai não é o jeito mais otimizado*/
 
-body{
-    font-family: 'Fira sans', Arial, Helvetica, sans-serif;
-    margin: 0px;
-    color: #141414;
+body {
+  font-family: "Fira sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #141414;
 }
-h1, h2, h3, p {
-    margin: 0px;
-}
-
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-img{
-    max-width: 100%;
-    display: block;
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
 }
 
-.header{
-    max-width: 1200px; /*tamanho maximo da tela*/
-    padding: 40px 20px;
-    margin: 0 auto; /*alinhamento central*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
-.header-menu{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    
+img {
+  max-width: 100%;
+  display: block;
 }
-.header-menu a{
-    font-size: 1.125rem;
-    line-height: 1.3rem;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #141414;
-    display: block;
+
+.header {
+  max-width: 1200px; /*tamanho maximo da tela*/
+  padding: 40px 20px;
+  margin: 0 auto; /*alinhamento central*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.introducao{
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
-    align-items: center;
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.header-menu a {
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
 }
 .introducao h1 {
-    font-size: 4rem;
-    line-height: 1.125;
-    margin-bottom: 1.857rem;
-    position: relative;
-
+  font-size: 4rem;
+  line-height: 1.125;
+  margin-bottom: 1.857rem;
+  position: relative;
 }
 .introducao h1::before {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url(img/detalhe.svg) no-repeat center;
-    position: absolute;
-    top: -15px;
-    left: -40px;
-    z-index: -1;
-
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url(img/detalhe.svg) no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
 }
 .introducao p {
-    font-size: 1.5rem;
-    color: #525252;
+  font-size: 1.5rem;
+  color: #525252;
 }
 .experiencia {
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
 }
 .subtitulo {
-    font-size: 8rem;
-    line-height: 1;
-    text-transform: uppercase;
-    word-break: break-all;
-    max-width: 4ch;
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
 }
 
 .experiencia .subtitulo {
-    color: #e0e0e0;
+  color: #e0e0e0;
 }
-.experiencia-texto{
-    font-size: 1.5rem;
-    line-height: 1.33;
-    max-width: 40ch;
-    margin-bottom: 60px;
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
 }
 .experiencia-texto strong {
-    color: #141414;
-
+  color: #141414;
 }
 .empresa {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px 20px;
-    padding: 20px;
-    background: #f5f5f5;
-    margin-bottom: 20px ;
-    border-radius: 4px;
-    position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
 }
 .empresa::before {
-    content: '';
-    display: block;
-    width: 4px;
-    height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
-    position: absolute;
-    top: 20px;
-    left: -4px;
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  top: 20px;
+  left: -4px;
 }
 .empresa-ano {
-    position: absolute;
-    top: 22px;
-    left: -100px;
-    text-align: right;
-    width: 80px;
-    color: #525252;
-    font-size: 0.875rem;
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #525252;
+  font-size: 0.875rem;
 }
 .empresa-titulo {
-    font-size: 1.125rem;
-    line-height: 1.1;
-    font-weight: bold;
-
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
 }
 .empresa-texto {
-    font-size: 0.875rem;
-    line-height: 1.4;
-    color: #525252;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
 }
 .empresa-habilidades {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
 }
 .empresa-habilidades li {
-    font-size: 0.875rem;
-    line-height: 1.4;
-    border-radius: 4px;
-    background: #ffffff;
-    padding: 5px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 5px;
 }
 .formação {
-    
 }
 
 .formacao-container {
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
 }
 
-@media (max-width: 600px){
-    .header{
-        flex-direction: column;
-        gap: 40px;
-        padding: 20px;
-    }
-    .header a {
-        background: #f0f0f0;
-        border-radius: 4px;
-
-    }
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  .header a {
+    background: #f0f0f0;
+    border-radius: 4px;
+  }
 }
- @media (max-width: 1000px) {
-    .introducao h1 {
-       font-size: 3rem;
-    }
- }
- @media (max-width: 800px) {
-    .introducao {
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-    }
-    .introducao h1 {
-        font-size: 2rem;
-     }
-     .introducao h1::before {
-        width: 30px;
-        height: 10px;
-        left: 0px;
-     }
-     .experiencia {
-        grid-template-columns: 1fr;
-        gap: 40px;
-     }
-     .experiencia .subtitulo {
-        color: #141414;
-
-     }
-     .experiencia-texto {
-        font-size: 1.25rem;
-     }
-     .empresa-ano {
-        position: initial;
-        order: 1;
-        width: initial;
-     }
-     .subtitulo {
-        font-size: 3rem;
-        text-transform: capitalize;
-        max-width: initial;
-        text-align: left;
-     }
-    
- }
+@media (max-width: 1000px) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0px;
+  }
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+  }
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+    text-align: left;
+  }
+}
 
 @media (max-width: 400px) {
-    .introducao {
-        
-    }
-    
-    .introducao img {
-        display: none;
-    }
-    .empresa {
-        grid-template-columns: 1fr;
-    }
+  .introducao {
+  }
+
+  .introducao img {
+    display: none;
+  }
+  .empresa {
+    grid-template-columns: 1fr;
+  }
 }
