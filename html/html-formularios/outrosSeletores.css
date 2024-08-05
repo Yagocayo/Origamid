@@ -1,0 +1,63 @@
+/*outros tipos de seletores pelos css*/
+
+/*----seletores por [atributos]----*/
+
+
+[required] {
+    border: 2px solid tomato;
+
+/*
+   p[required] {
+    border: 2px solid tomato; 
+    pega o p que tem require
+
+    p [required] {
+    border: 2px solid tomato; 
+    pega o p que em require por causa do espaço
+*/
+}
+/*  [name="email"]  */
+
+[href="#contato"] {
+    border: 2px solid green;
+}
+
+/*  [href^="#"]  */
+
+[href^="#"] {
+    background: tomato;
+
+}
+
+/*  [href$=".com"]  */
+
+[href$=".com"] {
+    background: green;
+}
+/*----seletores por Sinais ----*/
+/*selecionar h2 dentro(filho) de section*/
+section > h2{
+    color: tomato;
+
+}
+article{
+    background: lightgreen;
+    padding: 10px;
+}
+/*
+p {
+    margin-bottom: 20px;
+}
+article p:last-child {
+    margin-bottom: 0px;
+}
+*/
+p + p {
+    margin-top: 20px;
+}
+body{
+    color: blue;
+}
+* {
+    border: 2px solid red;
+}
