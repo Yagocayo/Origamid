@@ -1,0 +1,43 @@
+/*
+a varias formas de usar os seletores
+
+A ordem do elemento so importa se eles possuirem a mesma especificidade. caso contrario o seletor mais especifico ira prevalecer.
+
+prioridade no css
+
+1° id #
+(1,0,0)primeiro nivel
+
+2° classes, atributos e pseudo classes
+(0,1,0) segundo nivel
+
+3° elementos e pseudo elementos
+(0,0,1) terceiro nivel
+
+e tem a identificação por !important que e superior a todos
+
+dois seletores na mesma colocação tb e superior a apenas um 
+
+seletores de mesma especifidade vale o ultimo editado pq o css e por efeito cascata
+*/
+
+body {
+    font-size: 2rem;
+}
+#produtos {
+    color: lightblue;
+    padding: 10px;
+}
+#intro #servicos {
+    color: aqua;
+}
+#servicos {
+    color: violet;
+}
+.titulo.titulo {
+    color: blue;
+}
+.titulo {
+    color: tomato;
+    padding: 10px;
+}
