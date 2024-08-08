@@ -1,0 +1,17 @@
+/*
+variaveis no css 
+*/
+:root {
+    --cor-primaria: #84e;
+    --borda: 4px solid blue;
+    --fonte-grande: 3rem;
+}
+h1 {
+    font-size: var(--fonte-grande);
+    color: var(--cor-primaria);
+}
+/*cauculando no css se usa o calc*/
+p{
+    font-size: calc(var(--fonte-grande) /2);
+    color: var(--cor-primaria);
+}

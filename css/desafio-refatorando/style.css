@@ -1,3 +1,11 @@
+:root {
+    --cor-primaria: #e21;
+    --cor-primaria-escura: #900;
+
+}
+
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -63,7 +71,7 @@ p {
 
 }
 .menu a:hover {
-    border:2px solid #ee2211 ;
+    border:2px solid var(--cor-primaria) ;
     /*sempre que usar uma bordar hover
     e nescessario ter a borda no seletor tb*/
 }
@@ -92,7 +100,7 @@ p {
     content: "";
     width: 60px;
     height: 4px;
-    background: #ee2211;
+    background: var(--cor-primaria);
     position: absolute;
     top: 30px;
     right: -30px;
