@@ -1,12 +1,14 @@
 :root {
   --cor-primaria: #e21;
   --cor-primaria-escura: #900;
+  --fundo-1: #f7f7f7;
+  --fundo-2: #ffffff;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  background: #e7e7e7;
+  background: var(--fundo-1);
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -55,7 +57,7 @@ p {
 
 .menu a {
   display: block;
-  background: #ffffff;
+  background: var(--fundo-2);
   padding: 1rem 2rem;
   border-radius: 4px;
   color: #000000;
@@ -77,7 +79,7 @@ p {
 .introducao {
   display: grid;
   gap: 20px;
-  background: #ffffff;
+  background: var(--fundo-2);
   padding: 40px;
   text-align: right;
   position: relative;
@@ -104,14 +106,14 @@ p {
 }
 
 .botao {
-  background: #ee2211;
-  color: #ffffff;
+  background: var(--cor-primaria);
+  color: var(--fundo-2);
   padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
 }
 .botao:hover {
-  background-color: #900;
+  background-color: var(--cor-primaria-escura);
 }
 .subtitulo {
   font-size: 4rem;
@@ -126,7 +128,7 @@ p {
 }
 .vantagens {
   background-image: ;
-  background: #ffffff;
+  background: var(--fundo-2);
   padding: 20px;
 }
 .vantagens-item {
@@ -139,18 +141,18 @@ p {
     e nescessario ter a borda no seletor tb*/
 }
 .vantagens-item:hover {
-  border-color: #ee2211;
+  border-color: var(--cor-primaria);
   /*sempre que usar uma bordar hover
     e nescessario ter a borda no seletor tb*/
 }
 .vantagens-item:nth-child(odd) {
-  background: #e7e7e7;
+  background: var(--fundo-1);
 }
 .vantagens-item p {
   grid-column: 2;
 }
 .rodape {
-  background: #ffffff;
+  background: var(--fundo-2);
   width: 100%;
   text-align: center;
   box-sizing: border-box;
